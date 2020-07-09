@@ -9,3 +9,6 @@
   - difference between push_back(const &), push_back(T&&) and emplace_back(Args && ...)
   - questions where resize invalidates iterator and emplace_back on std::vector<std::vector<int> >
   
+3. std::move and std::forward, questions related to perfect forwarding
+
+4. In what case, virtual destructor in polymorphic base class is not required ?
