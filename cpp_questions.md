@@ -5,9 +5,9 @@
   - std::map 's key requirement of "strict weak order",  and std::unorderd_map's requirement of hash function and comparision function of equality
 
 2. std::vector related questions
-  - iterator invalidation
+  - iterator invalidation(questions where resize invalidates iterator)
   - difference between push_back(const &), push_back(T&&) and emplace_back(Args && ...)
-  - questions where resize invalidates iterator and emplace_back on std::vector<std::vector<int> >
+  - emplace_back on std::vector<std::vector<int> >
   
 3. std::move and std::forward, questions related to perfect forwarding
 
